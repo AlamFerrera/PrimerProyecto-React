@@ -1,13 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 function Hola()
 {
     let nombre = "Manuel";
     let edad = 22;
     return(
-        <div>
+        <Fragment>
             <h2>Hola {nombre} tu edad es {edad}</h2>
-        </div>
+            <p>Primer Componente</p>
+        </Fragment>
     );
 }
 

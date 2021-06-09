@@ -1,12 +1,17 @@
 import './App.css';
 import Hola from './Components/hola.jsx';
+import Contador from './Components/Contador.jsx'
 
 function App() {
   return (
     <div className="App">
-      <Hola></Hola>
+      <Contador></Contador>
     </div>
   );
 }
+
+/*\
+<Hola></Hola>
+*/
 
 export default App;
